@@ -1,0 +1,159 @@
+/* estilo.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#lateral {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+
+#principal {
+    width: 75%;
+   
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: grey solid 2px;
+    border-top: gray solid 2px;
+}
+
+
+#topo {
+   
+    box-sizing: border-box;
+    height: 120px;
+    margin-bottom: 20px;
+    border-bottom: gray solid 2px;
+}
+
+#area-usuario {
+    background: url(imagens/user.png) no-repeat left center;
+    height: 120px;
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+#conteudo {
+    margin-left: 30px;
+    padding-left: 40px;
+    background: #F1F1F1;
+    
+}
+
+h1 {
+    color: #074EE8;
+
+}
+
+#formularios {
+    background: #DFDFDF;
+    height: 340px;
+    padding: 40px;
+}
+
+#formularios.text{
+    width: 300px;
+}
+
+#menu-lateral {
+    
+    height: 225px;
+    list-style-type: none;
+}
+
+#menu-lateral ul {
+    
+    list-style-type: none;
+}
+
+#menu-lateral li {
+    margin: 20px;
+}
+
+#menu-lateral li a{
+    color: #000;
+    text-decoration: none;
+}
+
+#clear {
+    clear: both;
+}
+
+table {
+    border-collapse: collapse; 
+    border: none; 
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    background: #D4D4D4;
+    color: #074EE8;
+    height: 61px;
+    padding: 5px;
+}
+
+tr td {
+    padding: 5px;
+    height: 61px;
+    background: #E1E1E1;
+}
+
+
+
+.coluna1 {
+    float: left;
+}
+
+.coluna2 {
+    float: right;
+}
+
+#formularios div {
+    margin-bottom: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 300px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color:  #074EE8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#conteudo a {
+    padding: 12px;
+    border: 1px solid #074EE8;
+    background: #FFF;
+    color: #074EE8;
+    text-decoration: none ;
+
+}
+
+button#limpar {
+    border: 1px solid #074EE8;
+    background: #FFF;
+    color: #074EE8;
+}

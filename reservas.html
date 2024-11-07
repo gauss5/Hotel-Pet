@@ -4,90 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuario</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
 <body>
     <div id="lateral">
         <h1>Hotel Pet</h1>
-        <ul>
-            <li>
-                <a href="pet.html">Pet</a>
-            </li>
-            <li>
-                <a href="usuario.html">Usuário</a>
-            </li>
-            <li>
-                <a href="configuracoes.html">Configurações</a>
-            </li>
-            <li>
-                <a href="reservas.html">Reservas</a>
-            </li>
-        </ul>
+        <div id="menu-lateral">
+            <ul>
+                <li>
+                    <a href="pet.html">Pet</a>
+                </li>
+                <li>
+                    <a href="usuario.html">Usuário</a>
+                </li>
+                <li>
+                    <a href="configuracoes.html">Configurações</a>
+                </li>
+                <li>
+                    <a href="reservas.html">Reservas</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div id="topo">
-        <img src="" alt="">
-        <h3>Joao da Silva</h3>
-    </div>
+
     <div id="principal">
-        Home / Reserva
+
+        <div id="topo">
+        
+            <div id="area-usuario">
+                
+                <h3>Joao da Silva</h3>
+            </div>
+
+        </div>
+
         <div id="conteudo">
+            <br>
+            Home / Reserva
             <h3>Reservas</h3>
+          
+            <br><br>
             <a href="nova-reserva.html">Nova Reserva</a>
-            
+            <br><br>
             <br><br>
             
             <div id="formularios">
-                <form action="">
-                    <br>
-                    <label> Id:
-                        <input type="text">
-                    </label>
-                    <br>
-                    <label> Propietário
-                        <input type="text">
-                    </label>
-                    <br>
-                    Status:
-                    <select name="Status" id="">
-                        <option value="">
-                        </option>
-                    </select>
-                    <label> Periodo:
-                        <input type="date">
-                    </label>
-                    <label> Total:
-                        <input type="number" placeholder="R$ 0,00">
-                        <input type="number" placeholder="R$ 0,00">
-                    </label>
-                   <br><br>
-                    <label> Pet:
-                        <input type="text">
-                    </label>
-                    <br><br>
-                    
-                    <input type="button" value="Pesquisa">
-                    <input type="button" value="Limpar">
-                </form>
+                <div class="coluna1">
+                    <form action="">
+                        <div>
+                            <label for="id">Id:</label>
+                            <br>
+                            <input type="text" id="id" name="id" placeholder="Digite o ID">
+                        </div>
+            
+                        <div>
+                            <label for="proprietario">Proprietário:</label>
+                            <br>
+                            <input type="text" id="proprietario" name="proprietario" placeholder="Digite o nome do proprietário">
+                        </div>
+            
+                        <div>
+                            <label for="status">Status:</label>
+                            <br>
+                            <select name="status" id="status">
+                                <option value="" disabled selected>Selecione o status</option>
+                                <option value="ativo">Ativo</option>
+                                <option value="inativo">Inativo</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            
+                <div class="coluna2">
+                    <form action="">
+                        <div>
+                            <label for="periodo">Período:</label>
+                            <br>
+                            <input type="date" id="periodo" name="periodo">
+                        </div>
+            
+                        <div>
+                            <label for="total">Total:</label>
+                            <br>
+                            <input type="number" placeholder="R$ 0,00">
+                            <br>
+                            <input type="number" placeholder="R$ 0,00">
+                        </div>
+            
+                        <div>
+                            <label for="pet">Pet:</label>
+                            <br>
+                            <input type="text" id="pet" name="pet" placeholder="Nome do pet">
+                        </div>
+            
+                        <div>
+                            <button type="button">Pesquisa</button>
+                            <button id="limpar" type="reset">Limpar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
+
+
+
+
+
+
+            
             <br>
             <div id="tabela">
                 <table>
-                    <th>
-                        <td>
-                            Id
-                        </td>
-                        <td>
-                            Pet
-                        </td>
-                        <td>
-                            Chegada
-                        </td>
-                        <td>
-                            Status
-                        </td>
-                        <td>
-                            status
-                        </td>
-                    </th>
+                    <tr>
+                        <th>Id</th>
+                        <th>Pet</th>
+                        <th>Chegada</th>
+                        <th>Status</th>
+                        <th>Status</th>
+                    </tr>
                     <tr>
                         <td><input type="checkbox">
                             <img src="" alt="">
