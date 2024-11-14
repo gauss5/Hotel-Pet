@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuario</title>
+    <title>Novo Usuário</title>
     <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
 <body>
@@ -39,46 +39,66 @@
         
         <div id="conteudo">
             Home / Usuario / Novo Usuário
-            <h3>Editar Perfil</h3>
-            
-            
-            <div id="formularios">
-                <form action="">
-                
+            <h3>Novo Usuário</h3>
         
-                    <br>
-                    <label> email
-                        <input type="text">
-                    </label>
-                    <br>
-                    <label> Nome
-                        <input type="text">
-                    </label>
-                    <br>
-                    <label> Sobrenome
-                        <input type="text">
-                    </label>
-                    <br>
-                   
-                    <label> Telefone:
-                        <input type="number">
-                    </label>
-                    função:
-                    <select name="funcao" id="">
-                        <option value="">
-                        </option>
-                    </select>
-                    <br>
-                    <label> Foto
-                        <input type="image">
-                    </label>
-                    <br><br>
-                    
-                    <input type="button" value="Salvar">
-                    <input id="limpar" type="button" value="Limpar">
-                </form>
+            <div id="formularios">
+        
+                <div class="coluna1">
+                    <form action="">
+        
+                        <div>
+                            <label> Email <br>
+                                <input type="text">
+                            </label>
+                        </div>
+        
+                        <div>
+                            <label> Nome <br>
+                                <input type="text">
+                            </label>
+                        </div>
+        
+                        <div>
+                            <label> Sobrenome <br>
+                                <input type="text">
+                            </label>
+                        </div>
+        
+                    </form>
+                </div>
+        
+                <div class="coluna2">
+                    <form action="">
+        
+                        <div>
+                            <label> Telefone: <br>
+                                <input type="number">
+                            </label>
+                        </div>
+        
+                        <div>
+                            <label for="funcao">Função:</label> <br>
+                            <select id="funcao" name="funcao">
+                                <option value=""></option>
+                            </select>
+                        </div>
+        
+                        <div>
+                            <label> Foto <br>
+                                <input type="file" accept="image/*">
+                            </label>
+                        </div>
+        
+                        <button type="button">Pesquisar</button>
+                        <button type="button">Limpar</button>
+        
+                    </form>
+                </div>
+        
             </div>
-            <br>
+        </div>
+        
+        
             
         </div>
     </div>
