@@ -34,6 +34,7 @@
             <div id="area-usuario">
                 <img src="imagens/user.png" width="50px" alt="">
                 <h3>Joao da Silva</h3>
+                <a href="tela-login.html">Sair</a>
             </div>
 
         </div>
@@ -44,51 +45,49 @@
             
             
             <div id="formularios">
-                <div class="coluna1" >
-                    <form action="">
+                <div class="coluna1">
+                    <form id="form-coluna1">
                         <div>
-                            <label> Nome * <br>
-                                <input type="text">
+                            <label for="nome">Nome * <br>
+                                <input type="text" id="nome" name="nome">
                             </label>
                         </div>
                         <div>
-                            <label> Tipo * <br>
-                                <input type="text">
+                            <label for="tipo">Tipo * <br>
+                                <input type="text" id="tipo" name="tipo">
                             </label>
                         </div>
                         <div>
-                            <label> Raça <br>
-                                <input type="text">
+                            <label for="raca">Raça <br>
+                                <input type="text" id="raca" name="raca">
                             </label>
                         </div>
                     </form>
                 </div>
-               
-
+            
                 <div class="coluna2">
-                    <form action="">
+                    <form id="form-coluna2">
                         <div>
-                            <label>Tamanho * <br>
-                                <input type="text">
+                            <label for="tamanho">Tamanho * <br>
+                                <input type="text" id="tamanho" name="tamanho">
                             </label>
                         </div>
                         <div>
-                            <label> Imagem <br>
-                                <input type="image">
+                            <label for="foto">Imagem <br>
+                                <input type="file" id="foto" accept="image/*" name="foto">
                             </label>
                         </div>
-
-                       <button type="button">Pesquisar</button>
-                     
-                        <button type="button">Limpar</button>
+                        
+                        <button type="submit" id="cadastrar">Cadastrar</button>
+                        <button type="reset">Limpar</button>
                     </form>
                 </div>
-                    
-                    
             </div>
+            
          
             
         </div>
     </div>
+    <script src="novo-pet.js"></script>
 </body>
 </html>

@@ -32,6 +32,14 @@ body {
     border-bottom: gray solid 2px;
 }
 
+#topo a {
+    padding: 12px;
+    border: 1px solid #A66E38;
+    background: #FFF;
+    color: #A66E38;
+    text-decoration: none ;
+}
+
 #area-usuario {
     height: 120px;
     width: 100px;

@@ -34,6 +34,7 @@
             <div id="area-usuario">
                 <img src="imagens/user.png" width="50px" alt="">
                 <h3>Joao da Silva</h3>
+                <a href="tela-login.html">Sair</a>
             </div>
 
         </div>
@@ -114,91 +115,68 @@
 
             
             <br>
-            <div id="tabela">
-                <table>
-                    <tr>
-        
-                        <th>Email</th>
-                        <th>Nome</th>
-                        <th>Função</th>
-                        <th>Status</th>
-                        <th>Criado em</th>
-                    </tr>
-                    <tr>
-                      
-                        <td>
-                            joaodasilva@pet.com
-                        </td>
-                        <td>
-                            Joao da Silva
-                        </td>
-                        <td>
-                            Gerente
-                        </td>
-                        <td>
-                            Ativo
-                        </td>
-                        <td>
-                            19/02/2020
-                        </td>
-                        <td>
-                            <a href="">editar</a>
-                        </td>
-                        <td>
-                            <a href="">visualizar</a>
-                        </td>
-                    </tr>
-                    <tr>
-                       
-                        <td>
-                            maria@pet.com
-                        </td>
-                        <td>
-                            Maria da Silva
-                        </td>
-                        <td>
-                            Funcionario
-                        </td>
-                        <td>
-                            Inativo
-                        </td>
-                        <td>
-                            19/02/2020
-                        </td>
-                        <td>
-                            <a href="">editar</a>
-                        </td>
-                        <td>
-                            <a href="">visualizar</a>
-                        </td>
-                    </tr>
-                    <tr>
+            <div>
+                <table id="tabela-usuarios" border="1">
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Nome</th>
+                            <th>Função</th>
+                            <th>Status</th>
+                            <th>Criado em</th>
+                            <th>Editar</th>
+                            <th>Visualizar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>joaodasilva@pet.com</td>
+                            <td>João da Silva</td>
+                            <td>Gerente</td>
+                            <td>Ativo</td>
+                            <td>19/02/2020</td>
+                            <td><a href="#">Editar</a></td>
+                            <td><a href="#">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>maria@pet.com</td>
+                            <td>Maria da Silva</td>
+                            <td>Funcionário</td>
+                            <td>Inativo</td>
+                            <td>19/02/2020</td>
+                            <td><a href="#">Editar</a></td>
+                            <td><a href="#">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            <td>josedasilva@pet.com</td>
+                            <td>José da Silva</td>
+                            <td>Cliente</td>
+                            <td>Ativo</td>
+                            <td>19/02/2020</td>
+                            <td><a href="#">Editar</a></td>
+                            <td><a href="#">Visualizar</a></td>
+                        </tr>
+                        <tr>
+                            
+                            <td id="email"></td>
                         
-                        <td>
-                            josedaslva@pet.com
-                        </td>
-                        <td>
-                            Jose da Silva
-                        </td>
-                        <td>
-                            Cliente
-                        </td>
-                        <td>
-                            Ativo
-                        </td>
-                        <td>
-                            19/02/2020
-                        </td>
-                        <td>
-                            <a href="">editar</a>
-                        </td>
-                        <td>
-                           <a href="">visualizar</a>
-                        </td>
-                    </tr>
+                            
+                            <td id="nome"></td>
+              
+                            <td id="sobrenome"></td>
+                     
+                            
+                            <td id="telefone"></td>
+                    
+                            
+                            <td id="funcao"></td>
+                        </tr>
+                    </tbody>
                 </table>
+                
             </div>
         </div>
     </div>
+    <script src="usuario.js"></script>
 </body>
 </html>
