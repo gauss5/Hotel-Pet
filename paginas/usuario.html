@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            Home / Usuario
+        <h3>Usuários</h3>
+        <a href="#novo-usuario">Novo</a>
+        <button>Remover</button>
+        <button>Mudar Status</button>
+        <br><br>
+        Visualizar por:
+        <br>
+        <button>Usuario</button>
+        <button>Funcoes</button>
+        <div id="formularios">
+            <div class="coluna1">
+                <form action="">
+
+                        <div>
+                            <label for="id">Id:</label>
+                            <br>
+                            <input type="text" id="id" name="id" placeholder="Digite o ID" class="text">
+                        </div>
+                
+                        <div>
+                            <label for="email">Email:</label>
+                            <br>
+                            <input type="text" id="email" name="email" placeholder="Digite o email" class="text">
+                        </div>
+                
+                        <div>
+                            <label for="status">Status:</label>
+                            <br>
+                            <select name="status" id="status">
+                                <option value="" disabled selected>Selecione o status</option>
+                                <option value="ativo">Ativo</option>
+                                <option value="inativo">Inativo</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="coluna2">
+                    <form action="">
+                        <div>
+                            <label for="criado-em">Criado em:</label>
+                            <br>
+                            <input type="date" id="criado-em" name="criado-em">
+                        </div>
+                
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <br>
+                            <input type="text" id="nome" name="nome" placeholder="Digite o nome" class="text">
+                        </div>
+                
+                        <div>
+                            <label for="funcao">Função:</label>
+                            <br>
+                            <select name="funcao" id="funcao">
+                                <option value="" disabled selected>Selecione a função</option>
+                                <option value="gerente">Gerente</option>
+                                <option value="funcionario">Funcionário</option>
+                                <option value="cliente">Cliente</option>
+                            </select>
+                        </div>
+                
+                        <div>
+                            <button type="button">Pesquisa</button>
+                            <button id="limpar" type="reset">Limpar</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <br>
+        <div>
+            <table id="tabela-usuarios" border="1">
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Nome</th>
+                        <th>Função</th>
+                        <th>Status</th>
+                        <th>Criado em</th>
+                        <th>Editar</th>
+                        <th>Visualizar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>joaodasilva@pet.com</td>
+                        <td>João da Silva</td>
+                        <td>Gerente</td>
+                        <td>Ativo</td>
+                        <td>19/02/2020</td>
+                        <td><a href="#">Editar</a></td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>maria@pet.com</td>
+                        <td>Maria da Silva</td>
+                        <td>Funcionário</td>
+                        <td>Inativo</td>
+                        <td>19/02/2020</td>
+                        <td><a href="#">Editar</a></td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>josedasilva@pet.com</td>
+                        <td>José da Silva</td>
+                        <td>Cliente</td>
+                        <td>Ativo</td>
+                        <td>19/02/2020</td>
+                        <td><a href="#">Editar</a></td>
+                        <td><a href="#">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        
+                        <td id="email"></td>
+                    
+                        
+                        <td id="nome"></td>
+        
+                        <td id="sobrenome"></td>
+                
+                        
+                        <td id="telefone"></td>
+                
+                        
+                        <td id="funcao"></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </body>
+</html>
+
+<script src="../javascript/usuario.js"></script>

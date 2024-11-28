@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="conteudo">
+        <br>
+        Home / Reserva
+        <h3>Reservas</h3>
+      
+        <br><br>
+        <a href="#nova-reserva">Nova Reserva</a>
+        <br><br>
+        <br><br>
+        
+        <div id="formularios">
+            <div class="coluna1">
+                <form action="">
+                    <div>
+                        <label for="id">Id:</label>
+                        <br>
+                        <input type="text" id="id" name="id" placeholder="Digite o ID">
+                    </div>
+        
+                    <div>
+                        <label for="proprietario">Proprietário:</label>
+                        <br>
+                        <input type="text" id="proprietario" name="proprietario" placeholder="Digite o nome do proprietário">
+                    </div>
+        
+                    <div>
+                        <label for="status">Status:</label>
+                        <br>
+                        <select name="status" id="status">
+                            <option value="" disabled selected>Selecione o status</option>
+                            <option value="ativo">Ativo</option>
+                            <option value="inativo">Inativo</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        
+            <div class="coluna2">
+                <form action="">
+                    <div>
+                        <label for="periodo">Período:</label>
+                        <br>
+                        <input type="date" id="periodo" name="periodo">
+                    </div>
+        
+                    <div>
+                        <label for="total">Total:</label>
+                        <br>
+                        <input type="number" placeholder="R$ 0,00">
+                        <br>
+                        <input type="number" placeholder="R$ 0,00">
+                    </div>
+        
+                    <div>
+                        <label for="pet">Pet:</label>
+                        <br>
+                        <input type="text" id="pet" name="pet" placeholder="Nome do pet">
+                    </div>
+        
+                    <div>
+                        <button type="button">Pesquisa</button>
+                        <button class="limpar" type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <br>
+        <div id="tabela">
+            <table>
+                <tr>
+                    <th>Id</th>
+                    <th>Pet</th>
+                    <th>Chegada</th>
+                    <th>Status</th>
+                    <th>Status</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                   
+                    <td>
+                        121545213
+                    </td>
+                    <td>
+                        Max
+                    </td>
+                    <td>
+                        02/05/2021
+                    </td>
+                    <td>
+                        07/05/2022
+                    </td>
+                    <td>
+                        Reservada
+                    </td>
+                    <td>
+                        R$ 40,00
+                    </td>
+                    <td>
+                        <a href="#editarreserva.html">editar</a>
+                    </td>
+                    <td>
+                        <a href="">visualizar</a>
+                    </td>
+                </tr>
+                <tr>
+                
+                    <td>
+                        154845458
+                    </td>
+                    <td>
+                        Ginger
+                    </td>
+                    <td>
+                        02/05/2021
+                    </td>
+                    <td>
+                        07/05/2022
+                    </td>
+                    <td>
+                        Reservada
+                    </td>
+                    <td>
+                        R$ 40,00
+                    </td>
+                    <td>
+                        <a href="#editarreserva.html">editar</a>
+                    </td>
+                    <td>
+                        <a href="">visualizar</a>
+                    </td>
+                </tr>
+                <tr>
+                
+                    <td>
+                        121545213
+                    </td>
+                    <td>
+                        Max
+                    </td>
+                    <td>
+                        02/05/2021
+                    </td>
+                    <td>
+                        07/05/2022
+                    </td>
+                    <td>
+                        Finalizado
+                    </td>
+                    <td>
+                        R$ 40,00
+                    </td>
+                    <td>
+                        <a href="#editarreserva.html">editar</a>
+                    </td>
+                    <td>
+                       <a href="">visualizar</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="../javascript/reservas.js"></script>
+</body>
+</html>

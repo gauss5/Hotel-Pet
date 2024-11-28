@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Home / Pet / Novo Pet
+<h3>Novo Pet</h3>
+
+
+<div id="formularios">
+    <div class="coluna1">
+        <form id="form-coluna1">
+            <div>
+                <label for="nome">Nome * <br>
+                    <input type="text" id="nome" name="nome">
+                </label>
+            </div>
+            <div>
+                <label for="tipo">Tipo * <br>
+                    <input type="text" id="tipo" name="tipo">
+                </label>
+            </div>
+            <div>
+                <label for="raca">Raça <br>
+                    <input type="text" id="raca" name="raca">
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <div class="coluna2">
+        <form id="form-coluna2">
+            <div>
+                <label for="tamanho">Tamanho * <br>
+                    <input type="text" id="tamanho" name="tamanho">
+                </label>
+            </div>
+            <div>
+                <label for="foto">Imagem <br>
+                    <input type="file" id="foto" accept="image/*" name="foto">
+                </label>
+            </div>
+            
+            <button type="submit" id="cadastrar">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+</div>
+
+    <script src="../javascript/novo-pet.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #FFEEAD;
+}
+
+#lateral {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+
+#principal {
+    width: 75%;
+   
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: grey solid 2px;
+    border-top: gray solid 2px;
+}
+
+
+#topo {
+
+    box-sizing: border-box;
+    height: 120px;
+    margin-bottom: 20px;
+    border-bottom: gray solid 2px;
+}
+
+#topo a {
+    position: relative;
+    right: -80px;
+    top: -100px;
+    padding: 12px;
+    border: 1px solid #A66E38;
+    background: #FFF;
+    color: #A66E38;
+    text-decoration: none ;
+}
+
+#area-usuario {
+    height: 120px;
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+#conteudo {
+    padding-top: 10px;
+    margin-left: 30px;
+    padding-left: 40px;
+    background: #FFAD60;
+    
+}
+
+h1 {
+    color: #A66E38;
+
+}
+
+#formularios {
+    background: #96CEB4;
+    height: 340px;
+    padding: 40px;
+    padding-bottom: 40px;
+
+}
+
+#formularios .text{
+    width: 300px;
+}
+
+#menu-lateral {
+    height: 225px;
+    list-style-type: none;
+}
+
+#menu-lateral ul {
+    list-style-type: none;
+}
+
+#menu-lateral li {
+    margin: 20px;
+    color: #A66E38;
+    
+}
+
+#menu-lateral a:hover, li:hover {
+    margin: 20px;
+    padding: 10px;
+    color: #FFF;
+    background: #A66E38;
+}
+
+#menu-lateral li a{
+    color: #000;
+    text-decoration: none;
+}
+
+#clear {
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: 20px;
+}
+
+th, td {
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+
+th {
+    background-color: #96CEB4;
+    color: #A66E38;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #e6f2e9; 
+}
+
+
+
+
+.coluna1 {
+    float: left;
+}
+
+.coluna2 {
+    float: right;
+}
+
+/*****************
+Formularios
+******************/
+
+#formularios div {
+    margin-bottom: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 300px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    background-color:  #A66E38;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background: #FFF;
+    color: #A66E38;
+}
+
+#conteudo a {
+    padding: 12px;
+    border: 1px solid #A66E38;
+    background: #FFF;
+    color: #A66E38;
+    text-decoration: none ;
+
+}
+
+button .limpar {
+    border: 1px solid #A66E38;
+    background: #FFF;
+    color: #A66E38;
+}
+
+button .limpar:hover {
+   background: #A66E38;
+   color: #FFF;
+}
+
+
+/*******************
+Tela Login
+************************/
+
+#imagem-principal {
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+    background: url(imagens/pet-image.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+
+#container-login{
+    width: 400px;
+    float: right;
+    padding-right: 50px;
+}
+
+#container-login #login form label{
+    margin: 20px;
+}
+
+#container-login #login form input{
+    margin-bottom: 20px;
+    border: #A66E38;
+    padding: 10px;
+}
+
+#login {
+    padding: 50px;
+    background: #FFAD60;
+    border-radius: 20px;
+}
+
+#login .logar, .cadastrar {
+    border: #A66E38 1px solid;
+    color: #A66E38;
+    background: #FFF;
+    font-size: 1.5em;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+#login .logar:hover, .cadastrar:hover {
+    border: #A66E38 1px solid;
+    color: #FFF;
+    background:#A66E38;
+    cursor: pointer;
+}
+
