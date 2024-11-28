@@ -1,7 +1,7 @@
 const backgroundImages = [
-    'imagens/pet-image.jpg',
-    'imagens/pet-image2.png',
-    'imagens/pet-image3.jpg',
+    '../imagens/pet-image.jpg',
+    '../imagens/pet-image2.png',
+    '../imagens/pet-image3.jpg',
 ];
 
 let currentIndex = 0;
